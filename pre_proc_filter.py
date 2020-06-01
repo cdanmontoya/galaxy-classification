@@ -29,7 +29,7 @@ def gaussian_filter(path_to_read, phase, image_name):           # Definición de
         full_path = './filter_preproc/test/' + image_name   # Ruta de las imagenes de test para guardar
         cv2.imwrite(full_path, filter_image)                    # Guarda imagen    
     elif phase == 'train':                                      # Si el conjunto de imagenes es de train
-        full_path = './filter_erod_preproc/train/' + image_name  # Ruta de las imagenes de train para guardar
+        full_path = './filter_preproc/train/' + image_name  # Ruta de las imagenes de train para guardar
         cv2.imwrite(full_path, filter_image)                    # Guarda imagen 
     return
     
