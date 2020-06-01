@@ -9,7 +9,18 @@ Del experimento pudimos concluir que aplicar un filtro gaussiano para reducir el
 
 # Requisitos
 
+## Para la ejecución de los algoritmos de pre-procesamiento
+1- Tener python en su última versión
+2- Tener instalado OpenCV, matplotlib y numpy
+3- Crear 2 carpeta en el mismo directorio donde se encuentran los archivos de python que se llamen '/dilat_erod_preproc/' y 'filter_preproc', una vez dentro de ellas crear en cada carpeta otras dos carpetas que se llamen 'test' y 'train'
+4- Se debe poseer el dataset en el mismo directorio donde se encuentran los archivos de python.
+5- Ejecutar 'python3 read_multi_files.py'
 
+## Para la ejecución de los algoritmos de Machine Learning
+1- Es indispensable tener una GPU y tener instalados sus drivers (en el caso de nvidia sería los drivers de CUDA)
+2- Se debe tener instalado python3, Jupyter, tensorflow y Keras.
+3- Tener el dataset, de preferencia en el mismo directorio donde esta contenido el archivo a ejecutar
+4- Abrir con jupyter 'galaxy-classification.ipynb' y ejecutar cada instrucción
 
 # Autores 
 
